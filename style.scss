@@ -1,0 +1,62 @@
+$colorDark: #292F36;
+$colorDopFon: #F4F0EC;
+$colorDecorText: #CDA274;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    max-width: 1920px;
+
+}
+
+
+.center {
+    padding-right: calc(50% - 360px);
+    padding-left: calc(50% - 360px);
+}
+
+.headerLine {
+
+    padding-top: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &_logo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &_logoText {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        padding-left: 10px;
+        color: $colorDark;
+    }
+
+    &_bredCrambs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px
+    }
+
+    .crambs {
+        text-decoration: none;
+        color: $colorDark;
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+
+
+    }
+}
