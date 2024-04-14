@@ -8,20 +8,18 @@ $colorDecorText: #CDA274;
 }
 
 body {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Display", 'Jost', serif;
     font-style: normal;
-    max-width: 1920px;
-
+    margin: 0;
+    padding: 0;
 }
 
-
 .center {
-    padding-right: calc(50% - 360px);
-    padding-left: calc(50% - 360px);
+    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 600px);
 }
 
 .headerLine {
-
     padding-top: 44px;
     display: flex;
     flex-direction: row;
@@ -59,4 +57,328 @@ body {
 
 
     }
+}
+
+.bunner {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 57px;
+
+    &_img {
+        width: 100%;
+        height: auto;
+        display: block;
+        top: 0;
+        left: 0;
+        border-radius: 30px;
+
+    }
+
+    &_info {
+        width: 434px;
+        position: absolute;
+        top: 30%;
+        padding-left: 3%;
+        color: $colorDark;
+    }
+
+    &_info_tituleContent {
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 81px;
+        text-align: left;
+    }
+
+    &_info_text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    &_button {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 21px;
+        width: 220px;
+        height: 75px;
+        padding: 26px 49px 26px 48px;
+        gap: 10px;
+        border-radius: 18px 18px;
+        background-color: $colorDark;
+        font-size: 18px;
+        color: aliceblue;
+        border: none;
+
+
+
+    }
+
+}
+
+.content {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &_heading {
+        width: 737px;
+        text-align: center;
+    }
+
+    &_headin_titule {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 62.5px;
+        letter-spacing: 0.02em;
+
+    }
+
+    &_heading_text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+    }
+}
+
+.content_carts {
+    margin-top: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 56px;
+
+
+
+    &_cart_img1 {
+        width: 525px;
+        height: 525px;
+        background-image: url(./img/Image_cart1.jpg);
+    }
+
+    &_button {
+        width: 70px;
+        height: 70px;
+        background-color: $colorDopFon;
+        border: none;
+        border-radius: 50%;
+        color: $colorDark;
+        font-size: 22px;
+    }
+
+    &_cart_block {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    &_cart_text_h {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31.25px;
+    }
+
+    &_cart_text_p {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+    }
+
+    &_cart_img2 {
+        width: 525px;
+        height: 525px;
+        background-image: url(./img/Image+cart2.jpg);
+    }
+
+    &_cart_img3 {
+        width: 525px;
+        height: 525px;
+        background-image: url(./img/Image+cart3.jpg);
+    }
+
+    &_cart_img4 {
+        width: 525px;
+        height: 525px;
+        background-image: url(./img/Image+cart4.jpg);
+    }
+}
+
+.counter {
+    margin-top: 96px;
+    background-color: $colorDopFon;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &_blocks {
+        padding-top: 151px;
+        padding-bottom: 151px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 76px;
+    }
+
+    &_block {
+        text-align: center;
+        padding-right: 54px;
+        border-right: solid 2px $colorDecorText;
+    }
+
+    &_block_h {
+        padding-bottom: 6px;
+        font-size: 85px;
+        font-weight: 400;
+        line-height: 106.25px;
+        color: $colorDecorText;
+    }
+
+    &_block_p {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+
+    }
+
+    .block4 {
+        border-right: none;
+        padding-right: 0px;
+
+    }
+}
+
+.blog {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+
+    &_cart {
+        width: 382px;
+        border: solid 0.5px rgb(214, 213, 219);
+        border-radius: 30px;
+
+
+    }
+
+    &_cart_child {
+        position: relative;
+        margin: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_cart_button {
+        position: absolute;
+        width: 129px;
+        height: 41px;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        margin-right: 170px;
+        margin-top: 30px;
+    }
+
+    .blog_2 {
+        background-color: $colorDopFon;
+    }
+
+    .blog_2 button {
+        background-color: white;
+    }
+
+    .blog_2 img {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    &_cart_child_titul {
+        padding-top: 21px;
+    }
+
+    &_cart_child_titul h3 {
+
+        height: 75px;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31.25px;
+        padding-right: 60px;
+
+    }
+
+    &_cart_buttonblock {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_cart_btn {
+        width: 50px;
+        height: 50px;
+        background-color: $colorDopFon;
+        border: none;
+        border-radius: 50%;
+        color: $colorDark;
+        font-size: 22px;
+    }
+
+}
+
+.footer {
+    margin-top: 96px;
+    height: 406px;
+    display: flex;
+    justify-content: space-between;
+
+    &_blog {
+        width: calc(100% / 3);
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+    }
+
+    &_pages {
+        margin-left: 100px;
+
+    }
+
+    &_pages a {
+        text-decoration: none;
+        color: #292F36;
+    }
+
+    &_contact {
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    }
+
+    &_p {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px; 
+        font-family: Jost;
+    }
+
+    &_h {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31.25px;
+        color: black;  
+
+    }
+
 }
