@@ -241,12 +241,6 @@ body {
   margin-right: 170px;
   margin-top: 30px;
 }
-.blog .blog_2 {
-  background-color: #F4F0EC;
-}
-.blog .blog_2 button {
-  background-color: white;
-}
 .blog .blog_2 img {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -276,6 +270,13 @@ body {
   border-radius: 50%;
   color: #292F36;
   font-size: 22px;
+}
+
+.blog_cart:hover {
+  background-color: #F4F0EC;
+}
+.blog_cart:hover .blog_cart_btn {
+  background-color: white;
 }
 
 .footer {
