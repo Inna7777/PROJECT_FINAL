@@ -1,0 +1,46 @@
+.block_article {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.dateHref{
+    padding-top: 46px;
+    padding-bottom: 48px;
+    display: flex;
+}
+.aHref{
+    padding-left: 409px;
+}
+
+.list_article {
+    width: 804px;
+}
+.list_buttons{
+     width: 305px;
+}
+
+.list_button {
+   
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.button_details {
+    padding: 10px 20px;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.5px;
+
+    text-align: center;
+
+}
+
+.button_click{
+    background: #000;
+    color: aliceblue;
+}
